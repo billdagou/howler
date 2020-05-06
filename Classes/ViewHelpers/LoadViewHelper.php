@@ -29,7 +29,7 @@ class LoadViewHelper extends AbstractViewHelper {
             return GeneralUtility::makeInstance(Customization::class);
         }
 
-        if (($className = $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['jquery']['CDN']) && is_subclass_of($className, CDN::class)) {
+        if (($className = $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['howler']['CDN']) && is_subclass_of($className, CDN::class)) {
             return GeneralUtility::makeInstance($className);
         } else {
             return GeneralUtility::makeInstance(Local::class);
