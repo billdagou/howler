@@ -5,11 +5,11 @@ $EM_CONF[$_EXTKEY] = [
     'category' => 'misc',
     'author' => 'Bill.Dagou',
     'author_email' => 'billdagou@gmail.com',
-    'version' => '2.2.1',
+    'version' => '2.2.4',
     'state' => 'stable',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-10.4.99',
+            'typo3' => '12.4.0-12.4.99',
         ],
     ],
 ];

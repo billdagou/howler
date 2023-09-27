@@ -2,5 +2,5 @@
 namespace Dagou\Howler\Source;
 
 class Local extends AbstractSource {
-    const URL = 'EXT:howler/Resources/Public/';
+    protected const URL = 'EXT:howler/Resources/Public/';
 }

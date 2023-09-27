@@ -2,10 +2,10 @@
 namespace Dagou\Howler\Interfaces;
 
 interface Source {
-    const VERSION = '2.2.1';
-
     /**
+     * @param string $build
+     *
      * @return string
      */
-    public function getJs(): string;
+    public function getJs(string $build): string;
 }
